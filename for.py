@@ -60,3 +60,30 @@ for i in range(inte):
         print("Es un numero mas bajo")
 else:
     print("Se acabaron los intentos")
+
+
+
+from os import system
+system("cls")
+
+print("comienza la carrera")
+valla = input("viste una valla? si/no: ")
+if valla.lower() == "si":
+    print("salta")
+else:
+    print("sigue corriendo")
+
+tunel=input("encontraste un tunel ?  si/no: ")
+if tunel.lower() == "si":
+    print("atraviesa el tunel")
+else:
+    print("corre")
+
+lago=input("encontraste un lago? si/no: ")
+if lago.lower() =="si":
+    print("nada")
+    print("te agotaste has muerto")
+else:
+    print("ganaste")
+
+
