@@ -56,3 +56,17 @@ for i in range(10):
     if con< 64:
         print("es un numero mas bajo")
 
+
+inte=int(input("Cuantos intentos desea: "))
+
+for i in range(inte):
+    con=int(input("Ingrese el numero: "))
+    if con == 64:
+        print("Es correcto")
+        break
+    if con < 64:
+        print("Es un numero mas alto")
+    else:
+        print("Es un numero mas bajo")
+else:
+    print("Se acabaron los intentos")
