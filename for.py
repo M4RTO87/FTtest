@@ -45,16 +45,6 @@ system("cls")
 #     else:
 #         print("la contraseña es incorrecta")
 
-#malo
-for i in range(10):
-    con=input("ingrese el numero: ")
-    if con == 64:
-        print(" es correcto")
-        break
-    if con > 64:
-        print("es un numero mal alto")
-    if con< 64:
-        print("es un numero mas bajo")
 
 
 inte=int(input("Cuantos intentos desea: "))
