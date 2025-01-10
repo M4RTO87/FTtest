@@ -64,3 +64,5 @@ while True:
         print("hasta la proxima")
         print(f"su total es de ${total}")
         break
+    else:
+        print("ingrse una opcion valida\n")
