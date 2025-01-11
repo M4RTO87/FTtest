@@ -58,11 +58,13 @@ while True:
             if op == 4:
                 print("estas saliendo\n")
                 break
+            elif op > 4:
+                print("ingrese una opccion valida\n")
     if opc ==3:
         print(f"Gracias {nom} por venir al restorant Panuchis\n")
     if opc ==4:
         print("hasta la proxima")
         print(f"su total es de ${total}")
         break
-    else:
-        print("ingrse una opcion valida\n")
+    elif opc > 4:
+                print("ingrese una opccion valida\n")
