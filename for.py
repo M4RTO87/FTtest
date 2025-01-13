@@ -45,6 +45,17 @@ system("cls")
 #     else:
 #         print("la contraseña es incorrecta")
 
+#8 inpar
+# num=int(input("ingrese el rango"))
+# for i in range(num+1):
+#     if i%2!=0:
+#         print(f"el numero {i} es inpar")
+
+#9 par
+# num = int(input("ingrese el rango"))  
+# for i in range(num+1):               
+#     if i % 2 == 0:                   
+#         print(f"el numero {i} es par") 
 
 
 inte=int(input("Cuantos intentos desea: "))
