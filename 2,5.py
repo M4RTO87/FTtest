@@ -1,18 +1,18 @@
 from os import system
 system("cls")
 
-def deuda(pag):
-    deu=100000
-    #
+deu=100000
+def deuda():
+    pag=int(input("monto para realizar un pago"))
     if pag == 0 or pag <= deu:
-        deu=deu-pag
-        print(f"ahora su deuda es de {deu}")
+        deu-pag
+        print(f"ahora su deuda es de {deu-pag}")
     else:
         print("monto invalido")
 
 
+
 def compra():
-    total=0
     while True:
         print("1.- comprar")
         print("2.- salir")
@@ -20,8 +20,8 @@ def compra():
         if op ==1:
             com=int(input("de cuanto es el costo del poducto\n>>> "))
             if com >=0:
-                total=total+com
-                print(f"ahora su total es de ${total}")
+                com+deu
+                print(f"ahora su total es de ${deu+com}")
             else:
                 print("monto invalido")
         elif op ==2:
@@ -36,8 +36,7 @@ while True:
     op=int(input(">>> "))
     match op:
         case 1:
-            pag=int(input("monto para realizar un pago"))
-            deuda(pag)
+            deuda()
         case 2:
             compra()
         case 3:
