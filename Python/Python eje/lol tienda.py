@@ -1,5 +1,6 @@
 from os import system
 system("cls")
+
 ite=["Firmamento desgarrado","Coleccionista","Fuerza trinidad","Verdugo de krakens","Eclipse","Rencor de serylda","Tormento de liandry","Robaalmas de Mejai"]
 pre=[3100,3000,3333,3100,2900,3000,3000,1500]
 champ=["Kayn","Ekko","Viego","Shaco","Warwick","Jhin","Mordekaiser","Lee sin","Irelia","Akali","Leona"]
@@ -53,3 +54,7 @@ while True:
         print("Es hora de volver a la grietra")
         print(f"Te deseamos suete {champ[opc]}")
         break
+    else:
+        print("Opcion invalida")
+        input("Presione enter")
+        system("cls")
