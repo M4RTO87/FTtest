@@ -46,10 +46,12 @@ while True:
                 input("Presione enter")
                 system("cls")
     elif op ==3:
+        print("--------------------------------")
         for p in car:
             car.sort()
             print(f"{ite[p]}---------{pre[p]}")
             to=to+pre[p]
+        print("--------------------------------")
         print(f"Su total es de ${to}\n")
         print("Es hora de volver a la grietra")
         print(f"Te deseamos suete {champ[opc]}")
